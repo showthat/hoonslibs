@@ -46,12 +46,16 @@ repositories {
 
 
 publish {
+    repoName = 'maven'
     userOrg = 'emforhs1594'
     groupId = 'hoons.libs.com'
     artifactId = 'hoonslib'
-    publishVersion = '1.0.0'
+    publishVersion = '1.0.1'
     desc = 'My Test Libs.. with gradle'
-//    website = 'https://github.com/kimjunil/BannerAdMediator'
-//    issueTracker = "https://github.com/kimjunil/BannerAdMediator/issues"
-    repository = "https://github.com/showthat/hoonslib.git"
+    licences = ['MIT']
+    repository = "https://github.com/showthat/hoonslibs.git"
+
+//    website = ''
+//    issueTracker = ""
+
 }
